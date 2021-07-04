@@ -1,0 +1,57 @@
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
+    color: #ef2073e7;
+}
+h3{
+    margin-top: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    
+    
+}
+.hello-section{
+  background-image: url('/images/header-bg.png');
+  background-repeat: no-repeat;
+  
+  background-size:100%;
+}
+.second-half-width img{
+    width: 81%;
+    margin-right: 120px;
+}
+.header-div{
+    
+    display: flex;
+}
+.half-width{
+    margin-top: 210px;
+    margin-left: 260px;
+    margin-right: 20px;
+    
+}
+
+.half-width p{
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.second-half-width{
+    margin-top: 125px;
+    margin-right: 50px;
+}
+.button-link{
+    
+    text-decoration: none;
+    background-image: linear-gradient(#ef2073e7,#fa0c6b);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+    
+    
+    
+}
