@@ -1,3 +1,5 @@
+/* This is header / hello section design */
+
 h1{
     font-family: 'Otomanopee One', sans-serif;
     font-size: 40px;
@@ -10,17 +12,19 @@ h3{
     
     
 }
+
 .hello-section{
   background-image: url('/images/header-bg.png');
   background-repeat: no-repeat;
-  
+  display: flex;
   background-size:100%;
+  padding-bottom: 125px;
 }
 .second-half-width img{
     width: 81%;
     margin-right: 120px;
 }
-.header-div{
+.div-design{
     
     display: flex;
 }
@@ -31,7 +35,7 @@ h3{
     
 }
 
-.half-width p{
+.paragraph-text{
     padding-bottom: 30px;
     font-size: 16px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -54,4 +58,107 @@ h3{
     
     
     
+}
+/* This is biography section design */
+
+.biography-section{
+    background-image: url('/images/biography-bg.png');
+    display: flex;
+    background-size: 100%;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+.bio-width-first img{
+    width: 70%;
+    margin-left: 170px;
+    margin-top: 125px ;
+}
+.bio-width-second{
+    width: 50%;
+    margin-right: 40px;
+    margin-left: 80px;
+    margin-top: 215px;
+}
+.bio-width-second p{
+    color: gray;
+}
+
+/* This is work section design */
+.work-div{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    
+}
+.work-section{
+    margin-top: 100px;
+    background-image: url('/images/latest-work-bg.png') ;
+    background-size: 100%;
+    padding-bottom: 60px;
+   
+   
+}
+.work-section img{
+    width: 90%;
+    padding-left: 15px;
+}
+.work-section h3{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+/* This is footer section */
+.footer-section{
+    text-align: center;
+    margin-top: 80px;
+    background-image: url('/images/footer-bg.png');
+    background-size: 100%;
+    
+    
+}
+
+.footer-section h4{
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.footer-section small{
+    
+    color: gray;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.footer-section p{
+    margin-top: 35px;
+}
+
+#gmail-box{
+    border-radius: 10px;
+    background-image: linear-gradient(#f83a86de,#eb094de3);
+    padding: 25px 70px;
+    margin-left:320px;
+    margin-right:320px;
+    margin-top: 70px;
+}
+#gmail-box small {
+  
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+#gmail-box h4{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+  
+}
+.footer-div{
+    margin-top: 100px;
+}
+footer{
+    color: gray;
+    text-align: center;
+    margin-top: 150px;
 }
